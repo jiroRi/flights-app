@@ -31,6 +31,8 @@ const App = () => {
     <Page>
       <Container>
         <h1>DEPARTURES</h1>
+        <input type="text" placeholder="search" />
+        <button>Q</button>
         <FlightBoard flights={flights} />
       </Container>
     </Page>
